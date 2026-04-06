@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Profile"/>
+		<BuildType Name="Release"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="db8ea5f9-77e1-37fd-8b8b-08863cd87f90" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="plugins/connectivity_plus/connectivity_plus_plugin.vcxproj"/>
+		<BuildDependency Project="runner/flutter_application_1.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_wrapper_app.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bc0eca68-be23-34e1-9d9a-02d0463d99c5">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7275297f-ef2a-38d5-a2e4-eb0dbb633f27"/>
+	<Project Path="plugins/connectivity_plus/connectivity_plus_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7bcd0de0-8bf7-364c-8c5b-cddae2148e61">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="runner/flutter_application_1.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3a56f567-6ea1-33b5-8dc7-5bf26ad53960">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="plugins/connectivity_plus/connectivity_plus_plugin.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_wrapper_app.vcxproj"/>
+	</Project>
+	<Project Path="flutter/flutter_assemble.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="38fba826-cb14-3d45-b6f8-a98969a63b45">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="flutter/flutter_wrapper_app.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3b37c617-a451-37d9-b5cf-f64f41937c46">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_assemble.vcxproj"/>
+	</Project>
+	<Project Path="flutter/flutter_wrapper_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7694e17d-a709-3f59-9f96-b1aad59c7d41">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="flutter/flutter_assemble.vcxproj"/>
+	</Project>
+</Solution>

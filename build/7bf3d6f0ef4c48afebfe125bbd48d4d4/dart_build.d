@@ -1,0 +1,1 @@
+ C:\\Users\\quoch\\flutter_application_1\\build\\7bf3d6f0ef4c48afebfe125bbd48d4d4\\dart_build_result.json:  C:\\Users\\quoch\\develop\\flutter\\bin\\cache\\dart-sdk\\version C:\\Users\\quoch\\flutter_application_1\\.dart_tool\\package_config.json C:\\Users\\quoch\\flutter_application_1\\pubspec.yaml c:\\users\\quoch\\flutter_application_1\\.dart_tool\\package_config.json
